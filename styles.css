@@ -1,0 +1,136 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: yellow;
+}
+
+#header{
+    width: 100%;
+    height: 92vh;
+    background: url(./images/me.jpeg)no-repeat;
+    background-position: center;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    position: relative;
+}
+
+
+
+nav ul li a:hover{
+    color: yellow;
+}
+
+.welcome{
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.welcome h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.welcome h1 span{
+    color: white;
+}
+
+#about{
+    padding: 80px 0;
+}
+
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+
+.col-1{
+    flex-basis: 35%;
+}
+
+.col-1 img{
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.about-col-2{
+    flex-basis: 80%;
+}
+
+.heads{
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+}
+#more{
+    padding: 40px 0;
+}
+
+.last{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    margin-top: 50px;
+}
+
+.heads{
+    color: yellow;
+}
+
+.last a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.last h2{
+    color: black;
+}
+
+.last div{
+    background: white;
+    padding: 30;
+    font-size: 15px;
+    font-weight: 300;
+    border-right: 10px;
+}
+
+.last p{
+    color:black
+}
